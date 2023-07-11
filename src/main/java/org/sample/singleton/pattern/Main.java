@@ -1,4 +1,4 @@
-package org.example;
+package org.sample.singleton.pattern;
 
 public class Main {
     public static void main(String[] args) {

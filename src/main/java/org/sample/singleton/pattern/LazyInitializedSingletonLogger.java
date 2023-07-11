@@ -1,4 +1,4 @@
-package org.example;
+package org.sample.singleton.pattern;
 
 public class LazyInitializedSingletonLogger extends SingletonBase {
     private static LazyInitializedSingletonLogger instance;

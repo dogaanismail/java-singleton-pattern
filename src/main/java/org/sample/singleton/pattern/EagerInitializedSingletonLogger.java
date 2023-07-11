@@ -1,4 +1,4 @@
-package org.example;
+package org.sample.singleton.pattern;
 
 public class EagerInitializedSingletonLogger extends SingletonBase {
     private static final EagerInitializedSingletonLogger instance = new EagerInitializedSingletonLogger();
