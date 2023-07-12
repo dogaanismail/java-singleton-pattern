@@ -7,7 +7,7 @@ public class ThreadSafeSingletonLogger extends SingletonBase {
     private ThreadSafeSingletonLogger() {
     }
 
-    public static ThreadSafeSingletonLogger getInstance() {
+    public static synchronized ThreadSafeSingletonLogger getInstance() {
         if (instance == null) {
             instance = new ThreadSafeSingletonLogger();
         }
